@@ -28,3 +28,19 @@
 ## Установка и настройка
 1. Конфигурируем что хотим в configs/config.yml.
 2. Создаем файл .env по образу и подобию в .env.example
+  ```bash
+  $ cp .env.example .env
+  $ nano .env
+  $ cp docker-compose.example.yml docker-compose.yml
+  $ nano docker-compose.yml
+  ```
+## Docker
+
+#### Собираем образ
+```bash
+docker build image_bot:latest .
+```
+#### Запускаем compose
+```bash
+$ $ docker compose up -d
+```
