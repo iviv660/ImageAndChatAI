@@ -1,0 +1,25 @@
+app:
+  id: 1
+  name: ui-images
+  
+bot:
+  token: "-"
+  timeout: 10s
+
+openai:
+  enabled: true
+  api_key: "-"
+
+replicate:
+  enabled: true
+  token: "-"
+
+metrics:
+  enabled: false
+  host: ""
+  port: 0
+
+tracing:
+  enabled: false
+  host: ""
+  port: 0
