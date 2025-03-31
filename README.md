@@ -41,5 +41,5 @@ docker build image_bot:latest .
 ```
 #### Запускаем compose
 ```bash
-$ $ docker compose up -d
+docker compose up -d
 ```
