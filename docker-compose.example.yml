@@ -1,0 +1,12 @@
+services:
+  tele-openai-bot:
+    image: image_bot:latest
+    container_name: tele-openai-bot
+    restart: always
+    user: "8080:8080" 
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    env_file: .env.example
